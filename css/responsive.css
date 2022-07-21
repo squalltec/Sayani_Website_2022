@@ -1,0 +1,279 @@
+/* Small screen (phone) */
+@media only screen and (max-width: 767px) {
+	
+	header .main_menu{
+		display: none;
+	}
+	.nav_icon{
+		display: block;
+		margin-top: 0;
+	}
+	.sidebar_panel.right{
+		background: #1e3c50;
+	}
+	.sidebar_menu_area .main_menu li{
+		list-style: none;
+	}
+	.sidebar_panel.right{
+		background: #1e3c50;
+		z-index: 9999;
+	}
+	.sidebar_panel .sidebar_nav_icon_close{
+		color: #ffffff;
+	}
+	.sidebar_menu_area .main_menu li{
+		list-style: none;
+		// margin-bottom: 15px;
+	}
+	// .sidebar_menu_area .main_menu li a{
+	// 	font-family: "Montserrat", sans-serif;
+	// 	padding-bottom: 3px;
+	// 	display: inline-block;
+	// 	font-weight: 700;
+	// 	font-size: 1.4rem;
+	// 	color: #ffffff;
+	// 	border-bottom: 2px solid transparent;
+	// 	text-transform: uppercase;
+	// 	-webkit-transition: all 0.3s ease;
+	// 	-moz-transition: all 0.3s ease;
+	// 	-o-transition: all 0.3s ease;
+	// 	transition: all 0.3s ease;
+	// }
+	// .sidebar_menu_area .main_menu li a:hover{
+	// 	color: #ffac00;
+	// 	border-bottom: 2px solid #ffffff;
+	// }
+	.logo-block img{
+		margin: 0 auto;
+	}
+	.recent-project-section .recent_block .recent_projcet_content .recent_project_caption h4{
+		margin-top: 95px;
+	}
+	.recent_projcet_content img{
+		width: 100%;
+	}
+	.number-section .number-block{
+		margin-bottom: 35px;
+	}
+	.footer-logo{
+		text-align: center;
+	}
+	.footer-section .footer-bottom .copy-right{
+		text-align: center;
+	}
+	.counter_section_area .counter_section .single_counter_item{
+		margin-bottom: 75px;
+	}
+
+	.about_us_area .about_us .about_us_content .tab-content .tab-pane .about_tab_content_left{
+		margin-bottom: 30px;
+	}
+
+	.our_skills_area{
+		padding-bottom: 80px;
+	}
+
+
+	.recent-project-section .recent_block .recent_projcet_content .recent_project_caption h4{
+		margin-top: 42px;
+	}
+	.about_us_area .about_us .about_us_content .nav-tabs{
+		margin-right: 0;
+		max-width: 100%;
+		margin-bottom: 30px;
+	}
+	.about_us_area .about_us .about_us_content .tab-content .tab-pane .about_tab_content_left{
+		margin-right: 0;
+		max-width: 100%;
+		width: 100%;
+	}
+	.about_us_area .about_us .about_us_content .tab-content .tab-pane .about_tab_content_left img{
+		max-width: 100%;
+		margin: 0;
+		width: 100%;
+	}
+	.about_us_area .about_us .about_us_content .tab-content .tab-pane .about_tab_content_right{
+		overflow: visible;
+	}
+	.footer_area .footer_top_area .footer_top .block {
+		text-align: center;
+	}
+	.counter_section_area .counter_section .single_counter_item{
+		margin-bottom: 75px;
+	}
+	.counter_section_area .counter_section .single_counter_item{
+		text-align: center;
+	}
+	
+	.header_top_area .header_top .col-xs-6{
+		width: 50%;
+	}
+
+
+} /*max-width: 767px*/
+
+
+
+
+/* very small Mobile Layout: 320px. */
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+	#preloader{
+		display: none;
+	}
+
+
+	.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6{
+		width: 100%;
+	}
+	.recent-project-section .recent_block .recent_projcet_content .recent_project_caption h4{
+		margin-top: 40px;
+	}
+	.review-block .owl-nav{
+		display: none;
+	}
+	.number-section .number-block .number-icon{
+		margin-bottom: 20px;
+	}
+	.team-container{
+		padding-left: 25px;
+	}
+	.client-block .owl-nav{
+		display: none;
+	}
+	.counter_section_area .counter_section .single_counter_item{
+		margin-bottom: 75px;
+	}
+	.contact-form{
+		margin-bottom: 35px;
+	}
+	.footer-section .footer-bottom .copy-right{
+		line-height: 1.7;
+		margin-bottom: 30px;
+	}
+	.footer-section .footer_top .footer-menu .footer-navbar ul.footer-nav li{
+		padding: 0 10px;
+	}
+	.footer-section .footer_top .footer-social a.social-icon{
+		padding: 0 10px;
+	}
+
+} /* very small Mobile Layout: 320px. */
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+	
+
+}/* (min-width: 481px) and (max-width: 767px). */
+
+
+
+/* Small tablet Screen   */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#preloader{
+		display: none;
+	}
+	
+	header .main_menu{
+		display: none;
+	}
+	.nav_icon{
+		display: block;
+	}
+	.sidebar_panel.right{
+		background: #1e3c50;
+		z-index: 9999;
+	}
+	.sidebar_panel .sidebar_nav_icon_close{
+		color: #ffffff;
+	}
+	// .sidebar_menu_area .main_menu li{
+	// 	list-style: none;
+	// 	margin-bottom: 15px;
+	// }
+	// .sidebar_menu_area .main_menu li a{
+	// 	font-family: "Montserrat", sans-serif;
+	// 	padding-bottom: 3px;
+	// 	display: inline-block;
+	// 	font-weight: 700;
+	// 	font-size: 1.4rem;
+	// 	color: #ffffff;
+	// 	border-bottom: 2px solid transparent;
+	// 	text-transform: uppercase;
+	// 	-webkit-transition: all 0.3s ease;
+	// 	-moz-transition: all 0.3s ease;
+	// 	-o-transition: all 0.3s ease;
+	// 	transition: all 0.3s ease;
+	// }
+
+	// .sidebar_menu_area .main_menu li a:hover{
+	// 	color: #ffac00;
+	// 	border-bottom: 2px solid #ffffff;
+	// }
+
+	.recent-project-section .recent_block .recent_projcet_content .recent_project_caption h4{
+		margin-top: 25px;
+	}
+	.number-section .number-block{
+		margin: 20px 0;
+	}
+
+	.header_top_area .header_top .main_menu_area{
+		margin-top: 30px;
+	}
+
+	.about_us_area .about_us .about_us_content .nav-tabs{
+		max-width: 100%;
+		margin-right: 0;
+		float: none;
+		margin-bottom: 50px;
+	}
+
+	.about_us_area .about_us .about_us_content .tab-content .tab-pane .about_tab_content_left{
+		margin-right: 40px;
+	}
+
+	.header_top_area.banner--stick .main_menu_area {
+	    margin-top: 18px;
+	}
+
+	.counter_section_area {
+	    padding-top: 100px;
+	}
+
+	.our_skills_area{
+		padding-bottom: 80px;
+	}
+
+}
+
+
+
+/* Mediam Screen   */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+	.header-section .main_menu_area ul.main_menu li{
+		margin: 0px 15px;
+	}
+
+	.about_us_area .about_us .about_us_content .nav-tabs {
+	    max-width: 300px;
+	    margin-right: 30px;
+	}
+
+	.about_us_area .about_us .about_us_content .tab-content .tab-pane .about_tab_content_left {
+	    max-width: 300px;
+	    margin-right: 30px;
+	}
+
+	.creative_works_area .creative_works .creative_works_filter .creative_works_content .creative_works_block .creative_works_content_inner .creative_works_caption p{
+		display: none;
+	}
+	
+}
+
+
+
+/* Large Screen   */
+@media (min-width: 1200px) {
+	
+}
